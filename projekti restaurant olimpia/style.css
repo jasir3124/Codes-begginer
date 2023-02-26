@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    font-family: "Playfair Display";
+    scroll-behavior: smooth;
+}
+.navHolder{
+    width: 100%;
+    position: fixed;
+    background-color: #424242;
+    height: 40px;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    z-index: 9999;
+}
+.nav{
+    float: right;
+}
+.menyLink{
+    color: white;
+    text-decoration: none;
+    padding: 21px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.restaurantName{
+    margin: 5px 0px 0px 0px;
+}
+.startSection{
+    width: 100%;
+    position: relative;
+    height: 660px;
+}
+.startSection img{
+    width: 100%;
+    height: 660px
+}
+.RN{
+    position: absolute;
+    font-weight: 200;
+    bottom: 48%;
+    left: 34%;
+    color: #C84C09;
+    font-size: 48px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 13px;
+    border-bottom-left-radius: 33px;
+    border-top-right-radius: 33px;
+}
+.meny{
+    background-image: url(img/background123.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1029px;
+}
+.menyTitle{
+    padding: 25px 30px 10px 30px;
+    position: relative;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    left: 508px;
+    width: fit-content;
+}
+.hrMenyHeading{
+    width: 32%;
+    margin: 6px 0px 20px 445px;
+    height: 5px;
+    background-color: black;
+}
+.menyItems{
+    width: 100%;
+    display: flex;
+}
+.menyGalleri{
+    width: 29%;
+    background-color: rgba(69, 69, 69, 0.9);
+    margin: 27px;
+    height: 390px;
+    text-align: center;
+}
+.menyGalleri:nth-of-type(1){
+    margin-left: 30px;
+}
+.menyGalleri:nth-of-type(3){
+    margin-right: 30px;
+}
+.menyNr{
+    width: fit-content;
+    border: rgb(255, 255, 255) solid 4px;
+    padding: 19px;
+    margin: 34px;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.menyGalleri h2{
+    position: relative;
+    top: -106px;
+    left: 37px;
+    color: white;
+    font-size: 35px;
+}
+.menyGalleri h2:nth-of-type(2){
+    left: 10px;
+}
+.menyGalleri p{
+    color: #BCB9B3;
+    font-style: italic;
+}
+.waitTimeForMeny{
+    font-size: 23px;
+    position: relative;
+    top: 40px;
+}
+.waitTimeForMeny i{
+    padding-right: 5px;
+}
+.foodCost{
+    color: #368c39;
+    font-size: 30px;
+    padding: 60px 0px 0px 0px;
+}
+.aboutOurFood{
+    background-color: #DAD6D2;
+    padding: 60px;
+    height: 760px;
+    top: 40px;
+}
+.aboutOurFood img{
+    width: 530px;
+    height: 314px;
+    margin-top: 26px;
+    box-shadow: 0px 0px 41px -6px rgb(0 0 0 / 75%);
+}
+.aboutOurFoodTextSection{
+    float: right;
+    position: relative;
+    left: -24px;
+    text-align: center;
+    top: 40px;
+}
+.aboutOurFoodTextSection h2{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 200;
+    position: relative;
+}
+.aboutOurFoodTextSection p{
+    font-family: "Playfair Display";
+    letter-spacing: 4px;
+    font-size: 17px;
+    word-spacing: 4px;
+}
+.aboutOurFoodTextSection p:nth-of-type(1){
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-size: 21px;
+    padding: 15px;
+    position: relative;
+}
+.workHoursDays{
+    width: 100%;
+    margin: 100px 0px 0px 60px;
+}
+.workHoursDays h2{
+    font-family: "Playfair Display";
+    font-weight: 200;
+    font-size: 35px;
+    padding-BOTTOM: 35px;
+}
+.workDays{
+    width: 50%;
+    margin-top: 30px;
+    float: left;
+}
+.workDays ul{
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.workDays li{
+    font-family: "Playfair Display";
+    padding-bottom: 50px;
+}
+.logoAboutHolder{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    background-color: #495057;
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 750px;
+
+}
+.logo h3{
+    font-weight: 200;
+    font-size: 30px;
+}
+.about{
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 4px;
+}
+.aboutTextHolder{
+    position: relative;
+    top: 257px;
+}
+.about h2{
+    font-weight: 200;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.contact{
+    width: 100%;
+    background-color: #DEE2E6;
+    height: 800px;
+    
+}
+.contact h2{
+    font-weight: 200;
+    font-size: 55px;
+    position: relative;
+    left: 40%;
+    padding-top: 28px;
+    text-transform: capitalize;
+    width: fit-content;
+}
+.hrContHeading{
+    width: 32%;
+    margin: 6px 0px 0px 445px;
+    height: 5px;
+    background-color: black;
+}
+.contactForm{
+    width: 50%;
+    margin: 58px 0px 0px 10px;
+}
+.map{
+    width: 50%;
+    width: fit-content;
+    position: relative;
+    bottom: 539px;
+    left: 702px;
+}
+.myInput{
+    padding: 10px;
+    font-size: 20px;
+    width: 85%;
+    margin: 10px;
+}
+#textArea{
+    width: 87%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.submitBtn{
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    left: 190px;
+    top: 35px;
+}
+.submitBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.submitBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.submitBtn:hover span {
+    padding-right: 25px;
+}
+.submitBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.footer{
+    background-color: black;
+    height: fit-content;
+    padding: 20px 0px 20px 24px;
+}
+.footerParent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.address{
+    width: 25%;
+    color: white;
+    position: relative;
+    left: 45px;
+}
+.address h4{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-bottom: 43px;
+}
+.address p{
+    color: grey;
+}
+.socialMedia{
+    width: 25%;
+    color: white;
+    position: relative;
+    left: 90px;
+}
+.socialMedia h4{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.socialMedia a{
+    color: grey;
+    text-decoration: none;
+    position: relative;
+    top: 41px;
+    padding: 5px;
+}
+.call{
+    width: 25%;
+    position: relative;
+    left: 60px;
+}
+.call h4{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 43px;
+}
+.call p{
+    color: grey;
+    padding: 20px;
+}
+.fa-sameColor{
+    color: grey;
+}
+.topButton{
+    width: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myLink{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    width: fit-content;
+}
+.todaysSpecialsTitle{
+    font-weight: 200;
+    font-size: 55px;
+    position: relative;
+    left: 32%;
+    padding-top: 66px;
+    text-transform: capitalize;
+    width: fit-content;
+}
+.number{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.todaysSpecials{
+    height: 940px;
+    background-image: url(img/background\ for\ special\ menu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 940px;
+}
+.hrLimitedHeading{
+    width: 42%;
+    margin: 7px 0px 20px 374px;
+    height: 5px;
+    background-color: black;
+}
+.specialGalleriParent{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.SpecialsGalleri{
+    width: 50%;
+    background-color: rgba(69, 69, 69, 0.9);
+    margin: 40px 90px 0px 90px;
+    padding: 40px 67px 0px 72px;
+    height: 570px;
+    box-shadow: 0px 0px 32px -3px rgba(255,255,255,0.75);
+}
+.waitTimeForSpecial{
+    font-size: 23px;
+    position: relative;
+    top: 40px;
+    left: 75px;
+}
+.waitTimeForSpecial i{
+    padding-right: 5px;
+}
+.foodCost2{
+    color: #368c39;
+    font-size: 40px;
+    padding: 60px 0px 0px 145px;
+}
+.desertDrinkMeny{
+    background-image: url(img/desert\ meny\ background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.desertDrinkMeny h2{
+    font-weight: 200;
+    font-size: 55px;
+    position: relative;
+    left: 34%;
+    padding-top: 25px;
+    text-transform: capitalize;
+    width: fit-content;
+}
+.hrDesertMeny{
+    width: 42%;
+    margin: 7px 0px 20px 374px;
+    height: 5px;
+    background-color: black;
+}
+.deretNDrinkGalleriParent{
+    width: 100%;
+    display: flex;
+}
+.desertNDrinkGalleri{
+    width: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 38px 0px 20px 78px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 270px;
+    font-size: 23px;
+    border: 0px;
+    border-radius: 25px;
+}
+.desertDrinkMeny p{
+    font-size: 30px;
+}
+.copyRight{
+    height: 80px;
+    background-color: #f4511e;
+    width: 1349px;
+    color: grey;
+    font-size: 20px;
+}
+.copyRightText{
+    color: white;
+    position: relative;
+    left: 42%;
+    top: 30px;
+    width: fit-content;
+}
+.menyLink:hover{
+    color: #C84C09;
+    opacity: 0.7;
+}
+
+
+
+
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 355px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-bottom: 40px;
+}
+  
+  /* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+  
+  /* Position the front and back side */
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  
+  /* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+  /* Style the back side */
+.flip-box-back {
+    background-color: rgb(211, 108, 19);
+    color: white;
+    transform: rotateY(180deg);
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.flip-box-back-text{
+    margin-top: 65px;
+}
+
+    /* test */
+@media (max-width: 412px) {
+    .RN{
+        left: 130px;
+        width: 130px;
+        font-size: 30px;
+    }
+    .navHolder{
+        width: 412px;
+    }
+    .nav{
+        display: none;
+    }
+    .startSection img{
+    width: 412px;
+    height: 460px;
+    }
+
+
+}
+  
